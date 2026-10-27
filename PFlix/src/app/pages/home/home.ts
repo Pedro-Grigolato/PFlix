@@ -2,9 +2,9 @@ import { Component, DestroyRef, inject, OnInit, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
 import { catchError, forkJoin, map, of } from 'rxjs';
-import { AutoScrollDirective } from '../../directives/auto-scroll.directive';
+import { AutoScrollDirective } from '../../directives/auto-scroll';
 import { MediaSummary } from '../../models/tmdb.models';
-import { MovieApiService } from '../../services/movie-api.service';
+import { MovieApiService } from '../../services/movie-api';
 
 @Component({
   selector: 'app-home',

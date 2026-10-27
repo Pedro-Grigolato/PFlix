@@ -10,7 +10,7 @@ import {
   MediaType,
   TmdbVideo,
 } from '../../models/tmdb.models';
-import { MovieApiService } from '../../services/movie-api.service';
+import { MovieApiService } from '../../services/movie-api';
 
 type TrailerViewModel = TmdbVideo & { safeUrl: SafeResourceUrl };
 
